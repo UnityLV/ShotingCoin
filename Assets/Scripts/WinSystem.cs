@@ -29,7 +29,7 @@ public class WinSystem : MonoBehaviour
 
     public async void Win()
     {
-        DefeatSystem.DisableALL();
+        DefeatSystem.DisableGame();
         await Task.Delay(200);
         _onVictory.Invoke();
     }

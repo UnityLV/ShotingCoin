@@ -599,6 +599,37 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d16221e794fe16e4e8994a7f8c770561, type: 3}
+--- !u!1 &84279467
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 84279468}
+  m_Layer: 0
+  m_Name: BubbleCenter
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &84279468
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 84279467}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.5, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 777068361}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &95236509
 GameObject:
   m_ObjectHideFlags: 0
@@ -2039,6 +2070,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 470890, guid: 9acec412cf3cb0b4ea6bd5b99ee797bc, type: 3}
   m_PrefabInstance: {fileID: 1698395804}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &488992867
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 488992868}
+  m_Layer: 0
+  m_Name: BubbleCenter
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &488992868
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 488992867}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.5, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1065604685}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -3383,7 +3445,6 @@ MonoBehaviour:
   _gameActionObjects:
   - {fileID: 1150363792}
   - {fileID: 831207718}
-  - {fileID: 0}
   - {fileID: 777068359}
   - {fileID: 1065604683}
   - {fileID: 757052464}
@@ -3887,7 +3948,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6898334441163918592, guid: aa2653acc6a6c0f4c9219f18aba923ce, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
-      value: DisableALL
+      value: DisableGame
       objectReference: {fileID: 0}
     - target: {fileID: 6898334441163918592, guid: aa2653acc6a6c0f4c9219f18aba923ce, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
@@ -4126,6 +4187,7 @@ Transform:
   m_Children:
   - {fileID: 1273280897}
   - {fileID: 2067943289}
+  - {fileID: 84279468}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5563,6 +5625,7 @@ Transform:
   m_Children:
   - {fileID: 2055457050}
   - {fileID: 130146924}
+  - {fileID: 488992868}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -6735,8 +6798,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _wallPrefabLeft: {fileID: 7886343824584366699, guid: 23d3b7ee49117d644ba9643e890e029b, type: 3}
   _wallPrefabRight: {fileID: 5728687345740031152, guid: 19fa68d2ad9de77448bb5bc63880a6fd, type: 3}
-  _parentLeft: {fileID: 1065604685}
-  _parentRight: {fileID: 777068361}
+  _parentLeft: {fileID: 488992868}
+  _parentRight: {fileID: 84279468}
   _repeatRate: 6
 --- !u!4 &1274339154
 Transform:
@@ -9252,7 +9315,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.41509432, g: 0.41509432, b: 0.41509432, a: 1}
+  m_Color: {r: 0.3773585, g: 0.1224635, b: 0.22107422, a: 1}
   m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1

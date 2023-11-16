@@ -1,9 +1,11 @@
-﻿using System.Linq;
+﻿using System;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 using Iteration2;
 using NaughtyAttributes;
 using UnityEngine;
 using UnityEngine.Events;
+using Object = UnityEngine.Object;
 
 public class DefeatSystem : MonoBehaviour
 {
@@ -12,44 +14,61 @@ public class DefeatSystem : MonoBehaviour
     [Button()]
     public async void Defeat(int delay = 200)
     {
-        DisableALL();
+        DisableGame();
         await Task.Delay(delay);
         _onDefeat.Invoke();
     }
 
-    public void DisableALL()
+    public void DisableGame()
     {
-        var allEnemySpawners = FindObjectsOfType<BubbleWallSpawner>();
-        var allTargetSpawners = FindObjectsOfType<TargetSpawner>();
-        var allRigidBody2Ds = FindObjectsOfType<Rigidbody2D>();
-        var controllers = FindObjectsOfType<ToEdgeStick>();
-        var allMove = FindObjectsOfType<MoveAlongEdge>();
-        var walls = FindObjectsOfType<BubbleWall>();
-        var allTargets = FindObjectsOfType<Trap>();
-        var enemies = FindObjectsOfType<Enemy>();
-        var canonShoots = FindObjectsOfType<CanonShoot>();
+        DestroyAllObjectsOfTypes(
+            typeof(Trap)
+        );
 
-        for (int i = 0; i < allTargets.Length; i++)
-        {
-            Destroy(allTargets[i].gameObject);
-        }
-
-        Disable(allEnemySpawners);
-        Disable(allTargetSpawners);
-        Disable(allRigidBody2Ds);
-        Disable(controllers);
-        Disable(walls);
-        Disable(enemies);
-        Disable(canonShoots);
-
-        Disable(allMove);
+        DestroyAllComponentsOfTypes(
+            typeof(BubbleWallSpawner),
+            typeof(TargetSpawner),
+            typeof(Rigidbody2D),
+            typeof(ToEdgeStick),
+            typeof(MoveAlongEdge),
+            typeof(BubbleWall),
+            typeof(Enemy),
+            typeof(CanonShoot)
+        );
     }
 
-    private void Disable(params Component[] components)
+    private void DestroyAllComponentsOfTypes(params Type[] componentTypes)
+    {
+        Object[] components = FindObjectsOnScene(componentTypes);
+
+        DestroyArrayOf(components);
+    }
+
+    private void DestroyAllObjectsOfTypes(params Type[] gameObjectsTypes)
+    {
+        Object[] gameObjects = FindObjectsOnScene(gameObjectsTypes);
+
+        DestroyArrayOf(gameObjects);
+    }
+
+    private void DestroyArrayOf(Object[] components)
     {
         foreach (var component in components)
         {
             Destroy(component);
         }
+    }
+
+    private Object[] FindObjectsOnScene(params Type[] types)
+    {
+        var result = new List<Object>();
+
+        foreach (var type in types)
+        {
+            Object[] objects = FindObjectsOfType(type);
+            result.AddRange(objects);
+        }
+
+        return result.ToArray();
     }
 }
