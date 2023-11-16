@@ -1,0 +1,791 @@
+fileFormatVersion: 2
+guid: 21ed424423699e649813a304eb046385
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: photo_2023-10-27_15-33-05-transformed-transformed (2)_pixian_ai (2) (1)_0
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 1612
+        width: 357
+        height: 362
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58f9adbf610107540a0004b0bb7f630c
+      internalID: -1677447948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: photo_2023-10-27_15-33-05-transformed-transformed (2)_pixian_ai (2) (1)_1
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 1612
+        width: 353
+        height: 362
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4d0bb7efd59cc74f914b61889e51ca8
+      internalID: -893901515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: photo_2023-10-27_15-33-05-transformed-transformed (2)_pixian_ai (2) (1)_2
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 1612
+        width: 353
+        height: 362
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7199b317192de554ea105d4a20caa38e
+      internalID: -468288338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: photo_2023-10-27_15-33-05-transformed-transformed (2)_pixian_ai (2) (1)_3
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 1608
+        width: 353
+        height: 366
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8e0ccfea733f744e873939b15f30789
+      internalID: -1996279941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: photo_2023-10-27_15-33-05-transformed-transformed (2)_pixian_ai (2) (1)_4
+      rect:
+        serializedVersion: 2
+        x: 2002
+        y: 1653
+        width: 923
+        height: 312
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 168, z: 0, w: 141}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 885260b3ddc99424abb3e7bb57bc0119
+      internalID: 394774266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: photo_2023-10-27_15-33-05-transformed-transformed (2)_pixian_ai (2) (1)_5
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 1087
+        width: 353
+        height: 390
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 166074ebe8930c54babaa13326c3ded1
+      internalID: -948033314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: photo_2023-10-27_15-33-05-transformed-transformed (2)_pixian_ai (2) (1)_6
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1115
+        width: 357
+        height: 366
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec2dc84ae8c85b0479db4d968bf67eba
+      internalID: -1421054725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: photo_2023-10-27_15-33-05-transformed-transformed (2)_pixian_ai (2) (1)_7
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 1114
+        width: 357
+        height: 363
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1c725a661c5b444e9b6d778bf096791
+      internalID: 180516167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: photo_2023-10-27_15-33-05-transformed-transformed (2)_pixian_ai (2) (1)_8
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 1115
+        width: 353
+        height: 366
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c277597136a04da4b8e3e66e3920ded9
+      internalID: -1230081429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: photo_2023-10-27_15-33-05-transformed-transformed (2)_pixian_ai (2) (1)_9
+      rect:
+        serializedVersion: 2
+        x: 2007
+        y: 1324
+        width: 918
+        height: 312
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11c5c966c030b5f42a35060a4cdd6259
+      internalID: -116099209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: photo_2023-10-27_15-33-05-transformed-transformed (2)_pixian_ai (2) (1)_10
+      rect:
+        serializedVersion: 2
+        x: 2007
+        y: 995
+        width: 918
+        height: 303
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f5e2adc31b54054eb200cff26630f12
+      internalID: -1383732065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: photo_2023-10-27_15-33-05-transformed-transformed (2)_pixian_ai (2) (1)_11
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 593
+        width: 351
+        height: 394
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c80d624cd88a10549a0bdcfb94b9f20d
+      internalID: -172050515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: photo_2023-10-27_15-33-05-transformed-transformed (2)_pixian_ai (2) (1)_12
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 612
+        width: 358
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf13bdad54e67dc4db6e80db3a24b905
+      internalID: 331708299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: photo_2023-10-27_15-33-05-transformed-transformed (2)_pixian_ai (2) (1)_13
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 612
+        width: 357
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12b759168cd2ec344bd704a01051b69a
+      internalID: 1452679952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: photo_2023-10-27_15-33-05-transformed-transformed (2)_pixian_ai (2) (1)_14
+      rect:
+        serializedVersion: 2
+        x: 1508
+        y: 612
+        width: 357
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04d046a4c2e26424cba0b03de3ea73c7
+      internalID: -2063059202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: photo_2023-10-27_15-33-05-transformed-transformed (2)_pixian_ai (2) (1)_15
+      rect:
+        serializedVersion: 2
+        x: 2059
+        y: 723
+        width: 236
+        height: 237
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5af81d26dc6e6bd458b1a8f39c69f1fb
+      internalID: 1084969772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: photo_2023-10-27_15-33-05-transformed-transformed (2)_pixian_ai (2) (1)_16
+      rect:
+        serializedVersion: 2
+        x: 2349
+        y: 717
+        width: 247
+        height: 243
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f02b90e36befae441914f576075591ec
+      internalID: 1302954640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: photo_2023-10-27_15-33-05-transformed-transformed (2)_pixian_ai (2) (1)_17
+      rect:
+        serializedVersion: 2
+        x: 2655
+        y: 717
+        width: 234
+        height: 243
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6201dbf51bb27d84992fb19e2d6b208c
+      internalID: -1529645680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: photo_2023-10-27_15-33-05-transformed-transformed (2)_pixian_ai (2) (1)_18
+      rect:
+        serializedVersion: 2
+        x: 2813
+        y: 694
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c339b6499a2be13499fe73d55fba9b35
+      internalID: -1565147155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: photo_2023-10-27_15-33-05-transformed-transformed (2)_pixian_ai (2) (1)_19
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 91
+        width: 357
+        height: 394
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02db5d710997cf1419bc401699668db2
+      internalID: 1862375540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: photo_2023-10-27_15-33-05-transformed-transformed (2)_pixian_ai (2) (1)_20
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 91
+        width: 349
+        height: 394
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cdf40d6e3cc38940891c74c9fbf7960
+      internalID: 73218007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: photo_2023-10-27_15-33-05-transformed-transformed (2)_pixian_ai (2) (1)_21
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 91
+        width: 352
+        height: 394
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c6c85fb11540c043a87dff31cee13dd
+      internalID: 1197162604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: photo_2023-10-27_15-33-05-transformed-transformed (2)_pixian_ai (2) (1)_22
+      rect:
+        serializedVersion: 2
+        x: 1508
+        y: 100
+        width: 357
+        height: 385
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac58bbee211eeda4b8340032342bf42d
+      internalID: 954407452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: photo_2023-10-27_15-33-05-transformed-transformed (2)_pixian_ai (2) (1)_23
+      rect:
+        serializedVersion: 2
+        x: 1974
+        y: 415
+        width: 229
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f60a357a19041e7428a6ebd4959dc273
+      internalID: 1796128177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: photo_2023-10-27_15-33-05-transformed-transformed (2)_pixian_ai (2) (1)_24
+      rect:
+        serializedVersion: 2
+        x: 2268
+        y: 411
+        width: 328
+        height: 230
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f89bb03ad49ed1041a37c265a01b2bc6
+      internalID: -20106463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: photo_2023-10-27_15-33-05-transformed-transformed (2)_pixian_ai (2) (1)_25
+      rect:
+        serializedVersion: 2
+        x: 2675
+        y: 402
+        width: 327
+        height: 239
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9ced3202d77a8b4289bd58c6c2ac3f4
+      internalID: 1119251784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: photo_2023-10-27_15-33-05-transformed-transformed (2)_pixian_ai (2) (1)_26
+      rect:
+        serializedVersion: 2
+        x: 1937
+        y: 109
+        width: 273
+        height: 237
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33f6f0b11b931144d8ff25e163501e7f
+      internalID: -421214671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: photo_2023-10-27_15-33-05-transformed-transformed (2)_pixian_ai (2) (1)_27
+      rect:
+        serializedVersion: 2
+        x: 2268
+        y: 127
+        width: 329
+        height: 239
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73d5d02c92b97234dab18ed6080a3008
+      internalID: 2018590059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: photo_2023-10-27_15-33-05-transformed-transformed (2)_pixian_ai (2) (1)_28
+      rect:
+        serializedVersion: 2
+        x: 2669
+        y: 127
+        width: 334
+        height: 239
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e2ed63787ae7ed4798d6c8098c607ab
+      internalID: -175124292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      photo_2023-10-27_15-33-05-transformed-transformed (2)_pixian_ai (2) (1)_0: -1677447948
+      photo_2023-10-27_15-33-05-transformed-transformed (2)_pixian_ai (2) (1)_1: -893901515
+      photo_2023-10-27_15-33-05-transformed-transformed (2)_pixian_ai (2) (1)_10: -1383732065
+      photo_2023-10-27_15-33-05-transformed-transformed (2)_pixian_ai (2) (1)_11: -172050515
+      photo_2023-10-27_15-33-05-transformed-transformed (2)_pixian_ai (2) (1)_12: 331708299
+      photo_2023-10-27_15-33-05-transformed-transformed (2)_pixian_ai (2) (1)_13: 1452679952
+      photo_2023-10-27_15-33-05-transformed-transformed (2)_pixian_ai (2) (1)_14: -2063059202
+      photo_2023-10-27_15-33-05-transformed-transformed (2)_pixian_ai (2) (1)_15: 1084969772
+      photo_2023-10-27_15-33-05-transformed-transformed (2)_pixian_ai (2) (1)_16: 1302954640
+      photo_2023-10-27_15-33-05-transformed-transformed (2)_pixian_ai (2) (1)_17: -1529645680
+      photo_2023-10-27_15-33-05-transformed-transformed (2)_pixian_ai (2) (1)_18: -1565147155
+      photo_2023-10-27_15-33-05-transformed-transformed (2)_pixian_ai (2) (1)_19: 1862375540
+      photo_2023-10-27_15-33-05-transformed-transformed (2)_pixian_ai (2) (1)_2: -468288338
+      photo_2023-10-27_15-33-05-transformed-transformed (2)_pixian_ai (2) (1)_20: 73218007
+      photo_2023-10-27_15-33-05-transformed-transformed (2)_pixian_ai (2) (1)_21: 1197162604
+      photo_2023-10-27_15-33-05-transformed-transformed (2)_pixian_ai (2) (1)_22: 954407452
+      photo_2023-10-27_15-33-05-transformed-transformed (2)_pixian_ai (2) (1)_23: 1796128177
+      photo_2023-10-27_15-33-05-transformed-transformed (2)_pixian_ai (2) (1)_24: -20106463
+      photo_2023-10-27_15-33-05-transformed-transformed (2)_pixian_ai (2) (1)_25: 1119251784
+      photo_2023-10-27_15-33-05-transformed-transformed (2)_pixian_ai (2) (1)_26: -421214671
+      photo_2023-10-27_15-33-05-transformed-transformed (2)_pixian_ai (2) (1)_27: 2018590059
+      photo_2023-10-27_15-33-05-transformed-transformed (2)_pixian_ai (2) (1)_28: -175124292
+      photo_2023-10-27_15-33-05-transformed-transformed (2)_pixian_ai (2) (1)_3: -1996279941
+      photo_2023-10-27_15-33-05-transformed-transformed (2)_pixian_ai (2) (1)_4: 394774266
+      photo_2023-10-27_15-33-05-transformed-transformed (2)_pixian_ai (2) (1)_5: -948033314
+      photo_2023-10-27_15-33-05-transformed-transformed (2)_pixian_ai (2) (1)_6: -1421054725
+      photo_2023-10-27_15-33-05-transformed-transformed (2)_pixian_ai (2) (1)_7: 180516167
+      photo_2023-10-27_15-33-05-transformed-transformed (2)_pixian_ai (2) (1)_8: -1230081429
+      photo_2023-10-27_15-33-05-transformed-transformed (2)_pixian_ai (2) (1)_9: -116099209
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
