@@ -1,9 +1,10 @@
 ﻿using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.Serialization;
 
 namespace Iteration2
 {
-    public class MoveCanonButton : MonoBehaviour
+    public class MoveCanonButton : MonoBehaviour,IPointerDownHandler,IPointerUpHandler
     {
         [SerializeField] private float _speed;
         [SerializeField] private CanonRotate _canonRotate;
@@ -16,15 +17,13 @@ namespace Iteration2
                 _canonRotate.Rotate(_speed);
             }
         }
-        
-        public void PointerDown()
+     
+        public void OnPointerDown(PointerEventData eventData)
         {
             _isPressed = true;
         }
 
-      
-
-        public void PointerUp()
+        public void OnPointerUp(PointerEventData eventData)
         {
             _isPressed = false;
         }
