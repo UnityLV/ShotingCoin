@@ -26,7 +26,7 @@ public class DefeatSystem : MonoBehaviour
         );
 
         DestroyAllComponentsOfTypes(
-            typeof(BubbleWallSpawner),
+            typeof(ActionSpawner),
             typeof(TargetSpawner),
             typeof(Rigidbody2D),
             typeof(ToEdgeStick),

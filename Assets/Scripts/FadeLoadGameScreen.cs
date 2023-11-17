@@ -1,7 +1,7 @@
 ﻿using System;
 using UnityEngine;
 
-public class FadeLoadGameScren : MonoBehaviour
+public class FadeLoadGameScreen : MonoBehaviour
 {
     public Fade Fade;
 
