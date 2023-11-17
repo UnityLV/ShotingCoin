@@ -8,7 +8,7 @@ namespace Iteration2
         {
             if (other.transform.TryGetComponent(out Enemy enemy))
             {
-                enemy.SwitchToPlayerAttack();
+                enemy.SwitchToIce();
             }
         }
     }

@@ -1,7 +1,5 @@
 ﻿using System;
 using System.Threading.Tasks;
-using NaughtyAttributes;
-using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 

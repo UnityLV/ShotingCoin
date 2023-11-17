@@ -1,6 +1,4 @@
-﻿using System;
-using System.Threading.Tasks;
-using Cysharp.Threading.Tasks;
+﻿using System.Threading.Tasks;
 using DG.Tweening;
 using NaughtyAttributes;
 using UnityEngine;

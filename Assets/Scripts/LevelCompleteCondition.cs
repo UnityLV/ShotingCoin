@@ -1,7 +1,4 @@
-﻿using System.Collections.Generic;
-using UnityEngine;
-
-public class LevelCompleteCondition
+﻿public class LevelCompleteCondition
 {
     public bool IsThisLevelCompleted(int level)
     {

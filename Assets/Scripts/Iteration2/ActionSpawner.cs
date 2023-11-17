@@ -1,6 +1,5 @@
 using System;
 using UnityEngine;
-using UnityEngine.Serialization;
 using Random = UnityEngine.Random;
 
 namespace Iteration2
@@ -20,6 +19,8 @@ namespace Iteration2
 
         [SerializeField] private int _preferredAction = -1;
 
+        private int _firstCounter;
+
         private void Start()
         {
             InvokeRepeating(nameof(SpawnAction), _repeatRate, _repeatRate);
@@ -27,14 +28,26 @@ namespace Iteration2
 
         private void SpawnAction()
         {
-            ActionInGame action = _actions[Random.Range(0, _actions.Length)];
-
-            if (_preferredAction != -1)
-            {
-                action = _actions[_preferredAction];
-            }
+            ActionInGame action = GetActionToSpawn();
 
             SpawnAction(action);
+        }
+
+        private ActionInGame GetActionToSpawn()
+        {
+            bool isPreferredSelected = _preferredAction != -1;
+            if (isPreferredSelected)
+            {
+                return _actions[_preferredAction];
+            }
+
+            bool isNotAllObjectShowed = _firstCounter < _actions.Length;
+            if (isNotAllObjectShowed)
+            {
+                return _actions[_firstCounter++];
+            }
+
+            return _actions[Random.Range(0, _actions.Length)];
         }
 
         private void SpawnAction(ActionInGame action)

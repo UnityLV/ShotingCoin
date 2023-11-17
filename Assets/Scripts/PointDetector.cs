@@ -4,12 +4,11 @@ using UnityEngine.Events;
 
 public class PointDetector : MonoBehaviour
 {
-    [SerializeField] private AddPoints _addPointsPrefab;
     [SerializeField] private TMP_Text[] _counterTexts;
     [SerializeField] private int _points;
     [SerializeField] private UnityEvent _onDetect;
-    public DefeatSystem DefeatSystem;
-    public int Points => Game.Instance.LevelGoal.Points;
+    
+    private int Points => Game.Instance.LevelGoal.Points;
 
     private void Start()
     {
@@ -30,7 +29,6 @@ public class PointDetector : MonoBehaviour
                 Game.Instance.LevelGoal.AddPoints(_points);
             }
 
-            ShowAddPoint(other.transform.position);
             UpdatePointsCounters();
 
             enemy.ExplodeOfWall();
@@ -53,10 +51,5 @@ public class PointDetector : MonoBehaviour
         }
     }
 
-    private void ShowAddPoint(Vector2 position)
-    {
-        var addPoint = Instantiate(_addPointsPrefab, position, Quaternion.identity);
-        addPoint.SetPoints(_points);
-        Destroy(addPoint.gameObject, 3);
-    }
+   
 }
