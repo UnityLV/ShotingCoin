@@ -13,4 +13,9 @@ public class Enemy : MonoBehaviour
         var effect = Instantiate(_explodeOfWallEffect, transform.position + Vector3.back, Quaternion.identity);
         Destroy(effect, 4);
     }
+
+    public void SwitchToPlayerAttack()
+    {
+        GetComponentInChildren<Rigidbody2D>().gravityScale = 0.4f;
+    }
 }
