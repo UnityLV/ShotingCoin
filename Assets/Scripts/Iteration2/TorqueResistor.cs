@@ -2,6 +2,11 @@
 
 namespace Iteration2
 {
+    
+    
+    
+    
+    
     public class TorqueResistor : MonoBehaviour
     {
         [SerializeField] private float _maxTorque;
