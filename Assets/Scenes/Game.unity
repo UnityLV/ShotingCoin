@@ -158,8 +158,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 136.00012}
-  m_SizeDelta: {x: 341.27673, y: 178.36182}
+  m_AnchoredPosition: {x: 6.4997, y: 136.00012}
+  m_SizeDelta: {x: 481.56, y: 178.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &47778501
 MonoBehaviour:
@@ -208,12 +208,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 88.6
-  m_fontSizeBase: 813.9
+  m_fontSize: 130
+  m_fontSizeBase: 140
   m_fontWeight: 400
   m_enableAutoSizing: 1
-  m_fontSizeMin: 18
-  m_fontSizeMax: 88.6
+  m_fontSizeMin: 80
+  m_fontSizeMax: 130
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -1223,8 +1223,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4286959871
+  m_fontColor: {r: 1, g: 0.8152247, b: 0.5226415, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1241,12 +1241,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 105.8
+  m_fontSize: 188.3
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
   m_fontSizeMin: 18
-  m_fontSizeMax: 105.8
+  m_fontSizeMax: 188.3
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -2243,8 +2243,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -59}
-  m_SizeDelta: {x: 615.7, y: 178.4}
+  m_AnchoredPosition: {x: 6.5, y: -59}
+  m_SizeDelta: {x: 481.5, y: 178.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &381842166
 MonoBehaviour:
@@ -2293,12 +2293,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 88.6
+  m_fontSize: 86.5
   m_fontSizeBase: 813.9
   m_fontWeight: 400
   m_enableAutoSizing: 1
-  m_fontSizeMin: 18
-  m_fontSizeMax: 88.6
+  m_fontSizeMin: 80
+  m_fontSizeMax: 130
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -4415,7 +4415,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6fb4d3464fb30f44bba0af058e89e629, type: 3}
+  m_Sprite: {fileID: 1385142542, guid: 6d4518ad3a33f9444b88120423c419c8, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -12121,6 +12121,7 @@ GameObject:
   - component: {fileID: 2098707943}
   - component: {fileID: 2098707945}
   - component: {fileID: 2098707944}
+  - component: {fileID: 2098707946}
   m_Layer: 0
   m_Name: BG
   m_TagString: Untagged
@@ -12144,7 +12145,7 @@ RectTransform:
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -12161,14 +12162,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.32941177, g: 0.21063125, b: 0.15294118, a: 1}
+  m_Color: {r: 1, g: 0.9899371, b: 0.98490566, a: 1}
   m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: a9a0ef0b79d8e8c4abc43c5415e5c858, type: 3}
+  m_Sprite: {fileID: 2043542024, guid: 6d4518ad3a33f9444b88120423c419c8, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -12186,6 +12187,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2098707942}
   m_CullTransparentMesh: 1
+--- !u!114 &2098707946
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2098707942}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86710e43de46f6f4bac7c8e50813a599, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AspectMode: 4
+  m_AspectRatio: 1.6
 --- !u!1 &2121741361
 GameObject:
   m_ObjectHideFlags: 0
