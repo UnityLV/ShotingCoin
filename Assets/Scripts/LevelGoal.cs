@@ -3,6 +3,7 @@ using UnityEngine;
 
 public class LevelGoal
 {
+    
     private Action _reachCallback;
     public int Goal { get; private set; }
     public int Points { get; private set; }

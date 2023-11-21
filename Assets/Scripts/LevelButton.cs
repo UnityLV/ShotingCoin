@@ -15,7 +15,6 @@ public enum LevelState
     Current,
     Completed,
     Closed,
-    
 }
 
 [RequireComponent(typeof(Button))]
@@ -29,15 +28,16 @@ public class LevelButton : MonoBehaviour
 
     public LevelState State;
 
+    public int GetLevel() => _settings.Level;
+
     private void OnValidate()
     {
-    _settings.Level = transform.GetSiblingIndex() + 1;
+        _settings.Level = transform.GetSiblingIndex() + 1;
         _settings.Goal = ((_settings.Level + 1) * 15) + 30;
     }
 
-    private async void Awake()
+    private void Awake()
     {
-        await Task.Delay(1);
         GetComponent<Button>().onClick.AddListener(LoadLevel);
         SetView();
     }
@@ -94,6 +94,5 @@ public class LevelButton : MonoBehaviour
     private void LoadLevel()
     {
         Game.Instance.LevelLoader.LoadLevel(_settings);
-        
     }
 }

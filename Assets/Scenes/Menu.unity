@@ -340,6 +340,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 813019850}
     m_Modifications:
+    - target: {fileID: 899408195929925937, guid: a2ffe4d66f351d342aba72c8de4453a0, type: 3}
+      propertyPath: m_text
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 4495870839922131331, guid: a2ffe4d66f351d342aba72c8de4453a0, type: 3}
       propertyPath: m_Name
       value: LevelButton (2)
@@ -666,6 +670,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 813019850}
     m_Modifications:
+    - target: {fileID: 899408195929925937, guid: a2ffe4d66f351d342aba72c8de4453a0, type: 3}
+      propertyPath: m_text
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 4495870839922131331, guid: a2ffe4d66f351d342aba72c8de4453a0, type: 3}
       propertyPath: m_Name
       value: LevelButton (1)
@@ -775,6 +783,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 813019850}
     m_Modifications:
+    - target: {fileID: 899408195929925937, guid: a2ffe4d66f351d342aba72c8de4453a0, type: 3}
+      propertyPath: m_text
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 4495870839922131331, guid: a2ffe4d66f351d342aba72c8de4453a0, type: 3}
       propertyPath: m_Name
       value: LevelButton (4)
@@ -1222,7 +1234,6 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1107353051}
   - {fileID: 14353990}
   - {fileID: 497192549}
   - {fileID: 2013772166}
@@ -1233,6 +1244,7 @@ RectTransform:
   - {fileID: 329640032}
   - {fileID: 928773766}
   - {fileID: 104484499}
+  - {fileID: 1107353051}
   m_Father: {fileID: 967691022}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1287,6 +1299,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 813019850}
     m_Modifications:
+    - target: {fileID: 899408195929925937, guid: a2ffe4d66f351d342aba72c8de4453a0, type: 3}
+      propertyPath: m_text
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 4495870839922131331, guid: a2ffe4d66f351d342aba72c8de4453a0, type: 3}
       propertyPath: m_Name
       value: LevelButton (6)
@@ -1531,6 +1547,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 813019850}
     m_Modifications:
+    - target: {fileID: 899408195929925937, guid: a2ffe4d66f351d342aba72c8de4453a0, type: 3}
+      propertyPath: m_text
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4495870839922131331, guid: a2ffe4d66f351d342aba72c8de4453a0, type: 3}
       propertyPath: m_Name
       value: LevelButton (5)
@@ -1677,82 +1697,6 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 967691021}
-  m_CullTransparentMesh: 1
---- !u!1 &997641149
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 997641150}
-  - component: {fileID: 997641152}
-  - component: {fileID: 997641151}
-  m_Layer: 5
-  m_Name: Image
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &997641150
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 997641149}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.73381597, y: 0.73381597, z: 0.73381597}
-  m_ConstrainProportionsScale: 1
-  m_Children: []
-  m_Father: {fileID: 1601318230}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 45, y: 17}
-  m_SizeDelta: {x: 329.1633, y: 239}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &997641151
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 997641149}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: -175124292, guid: 21ed424423699e649813a304eb046385, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &997641152
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 997641149}
   m_CullTransparentMesh: 1
 --- !u!1 &1105355343
 GameObject:
@@ -1981,7 +1925,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 0.003921569}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -2024,6 +1968,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 813019850}
     m_Modifications:
+    - target: {fileID: 899408195929925937, guid: a2ffe4d66f351d342aba72c8de4453a0, type: 3}
+      propertyPath: m_text
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 4495870839922131331, guid: a2ffe4d66f351d342aba72c8de4453a0, type: 3}
       propertyPath: m_Name
       value: LevelButton (3)
@@ -2298,6 +2246,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 813019850}
     m_Modifications:
+    - target: {fileID: 899408195929925937, guid: a2ffe4d66f351d342aba72c8de4453a0, type: 3}
+      propertyPath: m_text
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 899408195929925937, guid: a2ffe4d66f351d342aba72c8de4453a0, type: 3}
+      propertyPath: m_fontSize
+      value: 287.7
+      objectReference: {fileID: 0}
     - target: {fileID: 4495870839922131331, guid: a2ffe4d66f351d342aba72c8de4453a0, type: 3}
       propertyPath: m_Name
       value: LevelButton (9)
@@ -2407,6 +2363,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 813019850}
     m_Modifications:
+    - target: {fileID: 899408195929925937, guid: a2ffe4d66f351d342aba72c8de4453a0, type: 3}
+      propertyPath: m_text
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 899408195929925937, guid: a2ffe4d66f351d342aba72c8de4453a0, type: 3}
+      propertyPath: m_fontSize
+      value: 287.7
+      objectReference: {fileID: 0}
     - target: {fileID: 4495870839922131331, guid: a2ffe4d66f351d342aba72c8de4453a0, type: 3}
       propertyPath: m_Name
       value: LevelButton (8)
@@ -2840,6 +2804,7 @@ GameObject:
   - component: {fileID: 1601318234}
   - component: {fileID: 1601318235}
   - component: {fileID: 1601318236}
+  - component: {fileID: 1601318237}
   m_Layer: 5
   m_Name: Exit
   m_TagString: Untagged
@@ -2856,17 +2821,16 @@ RectTransform:
   m_GameObject: {fileID: 1601318229}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.3, y: 1.3, z: 1.3}
+  m_LocalScale: {x: 0.55, y: 0.55, z: 0.55}
   m_ConstrainProportionsScale: 1
-  m_Children:
-  - {fileID: 997641150}
+  m_Children: []
   m_Father: {fileID: 804097936}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 105, y: 101}
-  m_SizeDelta: {x: 160, y: 160}
+  m_SizeDelta: {x: 357, y: 375.08878}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &1601318231
 MonoBehaviour:
@@ -2908,7 +2872,7 @@ MonoBehaviour:
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 997641151}
+  m_TargetGraphic: {fileID: 1601318237}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
@@ -2973,6 +2937,36 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
+--- !u!114 &1601318237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1601318229}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 1452679952, guid: 21ed424423699e649813a304eb046385, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
 --- !u!1 &1637336001
 GameObject:
   m_ObjectHideFlags: 0
@@ -3293,6 +3287,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 813019850}
     m_Modifications:
+    - target: {fileID: 899408195929925937, guid: a2ffe4d66f351d342aba72c8de4453a0, type: 3}
+      propertyPath: m_text
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4495870839922131331, guid: a2ffe4d66f351d342aba72c8de4453a0, type: 3}
       propertyPath: m_Name
       value: LevelButton (7)
@@ -4049,7 +4047,7 @@ PrefabInstance:
     - target: {fileID: 3413682543224748726, guid: aa2653acc6a6c0f4c9219f18aba923ce, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 1119251784, guid: 21ed424423699e649813a304eb046385, type: 3}
+      objectReference: {fileID: -893901515, guid: 21ed424423699e649813a304eb046385, type: 3}
     - target: {fileID: 3413682543224748726, guid: aa2653acc6a6c0f4c9219f18aba923ce, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -4164,23 +4162,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5701937637487694591, guid: aa2653acc6a6c0f4c9219f18aba923ce, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 329
+      value: 353
       objectReference: {fileID: 0}
     - target: {fileID: 5701937637487694591, guid: aa2653acc6a6c0f4c9219f18aba923ce, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 241.05705
+      value: 362.0857
       objectReference: {fileID: 0}
     - target: {fileID: 5701937637487694591, guid: aa2653acc6a6c0f4c9219f18aba923ce, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.94
+      value: 0.55
       objectReference: {fileID: 0}
     - target: {fileID: 5701937637487694591, guid: aa2653acc6a6c0f4c9219f18aba923ce, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.94
+      value: 0.55
       objectReference: {fileID: 0}
     - target: {fileID: 5701937637487694591, guid: aa2653acc6a6c0f4c9219f18aba923ce, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.94
+      value: 0.55
       objectReference: {fileID: 0}
     - target: {fileID: 5701937637487694591, guid: aa2653acc6a6c0f4c9219f18aba923ce, type: 3}
       propertyPath: m_AnchoredPosition.x
