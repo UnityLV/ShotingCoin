@@ -4,7 +4,7 @@ public class EffectsToggle : MonoBehaviour
 {
     private void OnEnable()
     {
-        if (Game.Instance == null)
+        if (Game.IsTest())
         {
             return;
         }

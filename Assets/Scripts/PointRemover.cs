@@ -9,11 +9,10 @@ public class PointRemover : MonoBehaviour
     [SerializeField] private int _points;
     [SerializeField] private UnityEvent _onDetect;
     public DefeatSystem DefeatSystem;
-    public int Points => Game.Instance.LevelGoal.Points;
 
     private void Start()
     {
-        if (Game.Instance != null)
+        if (Game.IsTest() == false)
         {
             Game.Instance.LevelGoal.Reset();
         }
@@ -25,27 +24,40 @@ public class PointRemover : MonoBehaviour
     {
         if (other.TryGetComponent(out Enemy enemy))
         {
-            if (Game.Instance != null)
-            {
-                Game.Instance.LevelGoal.AddPoints(_points);
-                if (Game.Instance.LevelGoal.Points < 0)
-                {
-                    DefeatSystem.Defeat();
-                }
-            }
+            HandlePoints(other);
 
-            ShowAddPoint(other.transform.position);
-            UpdatePointsCounters();
-
-            enemy.ExplodeOfWall();
-            Destroy(other.gameObject);
+            HandleEnemy(enemy);
             _onDetect?.Invoke();
+        }
+    }
+
+    private void HandleEnemy(Enemy enemy)
+    {
+        enemy.ExplodeOfWall();
+        Destroy(enemy.gameObject);
+    }
+
+    private void HandlePoints(Collider2D other)
+    {
+        ShowAddPoint(other.transform.position);
+        UpdatePointsCounters();
+
+        if (Game.IsTest())
+        {
+            return;
+        }
+
+        Game.Instance.LevelGoal.AddPoints(_points);
+        
+        if (Game.Instance.LevelGoal.Points < 0)
+        {
+            DefeatSystem.Defeat();
         }
     }
 
     private void UpdatePointsCounters()
     {
-        if (Game.Instance == null)
+        if (Game.IsTest())
         {
             return;
         }
@@ -53,7 +65,7 @@ public class PointRemover : MonoBehaviour
         int targetPoints = Game.Instance.LevelGoal.Goal;
         foreach (var counter in _counterTexts)
         {
-            counter.text = $"Points: {Points}/{targetPoints}";
+            counter.text = $"Points: {Game.Instance.LevelGoal.Points}-{targetPoints}";
         }
     }
 

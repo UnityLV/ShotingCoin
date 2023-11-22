@@ -12,7 +12,7 @@ public class PointDetector : MonoBehaviour
 
     private void Start()
     {
-        if (Game.Instance != null)
+        if (Game.IsTest() == false)
         {
             Game.Instance.LevelGoal.Reset();
         }
@@ -24,7 +24,7 @@ public class PointDetector : MonoBehaviour
     {
         if (other.TryGetComponent(out Enemy enemy))
         {
-            if (Game.Instance != null)
+            if (Game.IsTest() == false)
             {
                 Game.Instance.LevelGoal.AddPoints(_points);
             }
@@ -39,7 +39,7 @@ public class PointDetector : MonoBehaviour
 
     private void UpdatePointsCounters()
     {
-        if (Game.Instance == null)
+        if (Game.IsTest())
         {
             return;
         }
@@ -47,7 +47,7 @@ public class PointDetector : MonoBehaviour
         int targetPoints = Game.Instance.LevelGoal.Goal;
         foreach (var counter in _counterTexts)
         {
-            counter.text = $"Points: {Points}/{targetPoints}";
+            counter.text = $"Points: {Points}-{targetPoints}";
         }
     }
 

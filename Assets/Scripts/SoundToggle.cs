@@ -5,7 +5,7 @@ public class SoundToggle : MonoBehaviour
 {
     private void OnEnable()
     {
-        if (Game.Instance == null)
+        if (Game.IsTest())
         {
             return;
         }

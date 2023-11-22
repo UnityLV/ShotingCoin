@@ -5,10 +5,11 @@ public class EffectsSource : MonoBehaviour
 {
     private void Awake()
     {
-        if (Game.Instance == null)
+        if (Game.IsTest())
         {
             return;
         }
+
         var main = GetComponent<ParticleSystem>().main;
         main.playOnAwake = Game.Instance.Settings.GetIsEffectsEnabled();
         if (Game.Instance.Settings.GetIsEffectsEnabled() == false)
@@ -19,20 +20,22 @@ public class EffectsSource : MonoBehaviour
 
     private void OnEnable()
     {
-        if (Game.Instance == null)
+        if (Game.IsTest())
         {
             return;
         }
+
         Game.Instance.Settings.OnEffectsEnabled += OnEffectsEnabled;
         Game.Instance.Settings.OnEffectsDisabled += OnEffectsDisabled;
     }
 
     private void OnDisable()
     {
-        if (Game.Instance == null)
+        if (Game.IsTest())
         {
             return;
         }
+
         Game.Instance.Settings.OnEffectsEnabled -= OnEffectsEnabled;
         Game.Instance.Settings.OnEffectsDisabled -= OnEffectsDisabled;
     }

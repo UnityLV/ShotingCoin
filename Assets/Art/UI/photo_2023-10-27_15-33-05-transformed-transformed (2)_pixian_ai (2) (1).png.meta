@@ -744,6 +744,27 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: photo_2023-10-27_15-33-05-transformed-transformed (2)_pixian_ai (2) (1)_29
+      rect:
+        serializedVersion: 2
+        x: 2075
+        y: 1722
+        width: 782
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 80, z: 0, w: 55}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6c2047ad8953de449f299b84684c5c1
+      internalID: 89858802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -777,6 +798,7 @@ TextureImporter:
       photo_2023-10-27_15-33-05-transformed-transformed (2)_pixian_ai (2) (1)_26: -421214671
       photo_2023-10-27_15-33-05-transformed-transformed (2)_pixian_ai (2) (1)_27: 2018590059
       photo_2023-10-27_15-33-05-transformed-transformed (2)_pixian_ai (2) (1)_28: -175124292
+      photo_2023-10-27_15-33-05-transformed-transformed (2)_pixian_ai (2) (1)_29: 89858802
       photo_2023-10-27_15-33-05-transformed-transformed (2)_pixian_ai (2) (1)_3: -1996279941
       photo_2023-10-27_15-33-05-transformed-transformed (2)_pixian_ai (2) (1)_4: 394774266
       photo_2023-10-27_15-33-05-transformed-transformed (2)_pixian_ai (2) (1)_5: -948033314

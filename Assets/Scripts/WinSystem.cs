@@ -9,7 +9,7 @@ public class WinSystem : MonoBehaviour
 
     private void OnEnable()
     {
-        if (Game.Instance == null)
+        if (Game.IsTest())
         {
             return;
         }
@@ -20,7 +20,7 @@ public class WinSystem : MonoBehaviour
 
     private void OnDisable()
     {
-        if (Game.Instance == null)
+        if (Game.IsTest())
         {
             return;
         }

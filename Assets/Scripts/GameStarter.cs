@@ -7,7 +7,7 @@ public class GameStarter : MonoBehaviour
 
     public void Awake()
     {
-        if (Game.Instance == null)
+        if (Game.IsTest())
         {
             return;
         }
