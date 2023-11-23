@@ -7,6 +7,7 @@ public class Enemy : MonoBehaviour
 
     [SerializeField] private GameObject _fireEffects;
     [SerializeField] private GameObject _iceEffects;
+
     private bool _isIce;
     public void ExplodeOfWall()
     {

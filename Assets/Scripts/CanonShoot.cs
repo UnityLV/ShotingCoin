@@ -23,7 +23,12 @@ namespace Iteration2
             missile.AddForce(transform.up * _shootSpeed, ForceMode2D.Impulse);
             missile.AddTorque(.1f, ForceMode2D.Impulse);
             Destroy(missile.gameObject, 10f);
-            _onShoot?.Invoke();
+
+            if (Game.IsTest() == false && Game.Instance.Settings.GetIsEffectsEnabled())
+            {
+                _onShoot?.Invoke();
+            }
+           
         }
     }
 }

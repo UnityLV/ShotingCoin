@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 4106976724481116736}
   - component: {fileID: 4106976724479130506}
   - component: {fileID: 696532975954312776}
+  - component: {fileID: 1836021854781511429}
+  - component: {fileID: 986933748295995854}
   m_Layer: 0
   m_Name: RedStart
   m_TagString: Untagged
@@ -4887,7 +4889,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: fcad7d2908b3dbf4caf9c998c47b6b1f, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.322
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -4971,6 +4973,30 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
+--- !u!114 &1836021854781511429
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4106976724461375026}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c66b927a9e484fdcb51cdbc35305165f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &986933748295995854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4106976724461375026}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60c7746d4e544bd882d3a553a4e1950b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4106976724461445858
 GameObject:
   m_ObjectHideFlags: 0
@@ -4982,6 +5008,7 @@ GameObject:
   - component: {fileID: 4106976724461731498}
   - component: {fileID: 4106976724481175416}
   - component: {fileID: 4106976724479242862}
+  - component: {fileID: 8825849723766719551}
   m_Layer: 0
   m_Name: Sparkles
   m_TagString: Untagged
@@ -9860,6 +9887,18 @@ ParticleSystemRenderer:
   m_MeshWeighting2: 1
   m_MeshWeighting3: 1
   m_MaskInteraction: 0
+--- !u!114 &8825849723766719551
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4106976724461445858}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c66b927a9e484fdcb51cdbc35305165f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4106976724461480190
 GameObject:
   m_ObjectHideFlags: 0
@@ -9871,6 +9910,7 @@ GameObject:
   - component: {fileID: 4106976724461698526}
   - component: {fileID: 4106976724481111460}
   - component: {fileID: 4106976724479176500}
+  - component: {fileID: 3876522540990047797}
   m_Layer: 0
   m_Name: Glow
   m_TagString: Untagged
@@ -14686,6 +14726,18 @@ ParticleSystemRenderer:
   m_MeshWeighting2: 1
   m_MeshWeighting3: 1
   m_MaskInteraction: 0
+--- !u!114 &3876522540990047797
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4106976724461480190}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c66b927a9e484fdcb51cdbc35305165f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4532948630094032219
 GameObject:
   m_ObjectHideFlags: 0
@@ -14697,6 +14749,7 @@ GameObject:
   - component: {fileID: 1368639534454355387}
   - component: {fileID: 4613850622759595548}
   - component: {fileID: 6431243797204414550}
+  - component: {fileID: 8962626175484571402}
   m_Layer: 0
   m_Name: Nova
   m_TagString: Untagged
@@ -19476,3 +19529,15 @@ ParticleSystemRenderer:
   m_MeshWeighting2: 1
   m_MeshWeighting3: 1
   m_MaskInteraction: 0
+--- !u!114 &8962626175484571402
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4532948630094032219}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c66b927a9e484fdcb51cdbc35305165f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

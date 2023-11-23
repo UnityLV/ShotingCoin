@@ -9,9 +9,10 @@ public class GameStarter : MonoBehaviour
     {
         if (Game.IsTest())
         {
+            EnableObjects();
             return;
         }
-        
+
         if (Game.Instance.Settings.IsNeedToShowTutorial)
         {
             ShowTutorial();
@@ -26,7 +27,7 @@ public class GameStarter : MonoBehaviour
     {
         _tutorial.gameObject.SetActive(true);
     }
-    
+
     public void OnTutorialClose()
     {
         _tutorial.gameObject.SetActive(false);
@@ -38,8 +39,6 @@ public class GameStarter : MonoBehaviour
         foreach (var gameActionObject in _gameActionObjects)
         {
             gameActionObject.SetActive(true);
-        } 
+        }
     }
-
-   
 }
